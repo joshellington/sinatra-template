@@ -8,7 +8,7 @@ class Main
 
     @home_text = Maruku.new(text).to_html
 
-    haml :home
+    erb :home
   end
 end
 
